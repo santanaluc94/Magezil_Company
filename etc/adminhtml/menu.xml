@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magezil_Company::company" title="Company" translate="title" module="Magezil_Company" parent="Magento_Customer::customer" sortOrder="80" resource="Magezil_Company::company" />
+        <add id="Magezil_Company::companies_grid" title="Companies" translate="title" module="Magezil_Company" parent="Magezil_Company::company" sortOrder="10" action="company/company/grid" resource="Magezil_Company::company" />
+    </menu>
+</config>
